@@ -1,7 +1,7 @@
 info:
     app:
         desc: Order Service API
-        name: order-service
+        name: zed-order-service
         contact:
            name: Walid ZEDDINI
            email: walid.zeddini@gmail.com
@@ -12,7 +12,7 @@ info:
             
 spring:
   application:
-    name: order-service
+    name: zed-order-service
   zipkin:
     #base-url: http://zipkin-server.ddns.net:9411/zipkin/
     base-url: http://127.0.0.1:9411/zipkin/
