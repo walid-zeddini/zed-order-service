@@ -35,16 +35,17 @@ spring:
       connection-timeout: 60000
       maximum-pool-size: 30
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/ORDER_MS_DB
-    username: zedgres
-    password: zedgres
+    #url: jdbc:postgresql://localhost:5432/ORDER_MS_DB
+    url: jdbc:postgresql://ec2-54-73-22-169.eu-west-1.compute.amazonaws.com:5432/d1ef54rir1bqns
+    username: nqqjilbclkavee
+    password: b9a381430e07c1f1743e778b3ef0a55c4864c5dbb5491dbd93c80dadf75a774b
 #    url: jdbc:postgresql://ec2-52-204-72-14.compute-1.amazonaws.com:5432/d713a095k5u92v
 #    username: pqjthuntoftqnr
 #    password: f46a560f837a27fca076c5e3e085f1adb1c0dc7a1fdd905b7ba21e13b0288733
 
   jpa:
     hibernate:
-      ddl-auto: update # When you launch the application for the first time - switch "none" at "create"
+      ddl-auto: create # When you launch the application for the first time - switch "none" at "create"
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     generate-ddl: false
