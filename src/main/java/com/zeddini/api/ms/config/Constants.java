@@ -27,8 +27,11 @@ public final class Constants {
     //	 URL Rest to invocate
     //    public static final String URL_MS_STOCK = "http://stock-service/produit/";
 
-    public static final String  PRODUIT_API_URL_BASE = "http://localhost:9191"; //"https://nexio-stock-service.herokuapp.com";
-    public static final String  PRODUIT_API_URL =  "http://localhost:9191/api/produits/";// "https://nexio-stock-service.herokuapp.com/api/produits/";
+//    public static final String  PRODUIT_API_URL_BASE = "http://localhost:9191"; 
+//    public static final String  PRODUIT_API_URL =  "http://localhost:9191/api/produits/";
+
+    public static final String  PRODUIT_API_URL_BASE = "https://zed-stock-service-71dbea08ba3d.herokuapp.com";
+    public static final String  PRODUIT_API_URL =  "https://zed-stock-service-71dbea08ba3d.herokuapp.com/api/produits/";
 
     // Regex for acceptable logins
     public static final String LOGIN_REGEX = "^(?>[a-zA-Z0-9!$&*+=?^_`{|}~.-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*)|(?>[_.@A-Za-z0-9-]+)$";
